@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Great Gift Wrap Up</title>
+<link rel="icon" type="image/png" href="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/22/TRfavicon.png" />
+<!-- <link href="css/Normalize.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css" >
+<link href="css/GGWU_Custom.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link type="text/css" href="css/jquery.countdown.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="https://use.fontawesome.com/45b9a36b9b.js"></script> -->
+
+<link href="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e73ae5f61e7025e0b41204329af1579a0fcc9da42737337a696" rel="stylesheet" type="text/css">
+<link href="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e73a3062e5652e4cdf13b25bc0218a0f68f8fda13caa4a50a88" rel="stylesheet" type="text/css" >
+
+<link href="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e738eefab69d719b159a477286566a6c66703959d661e851cc8" rel="stylesheet" type="text/css">
+<link href="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e73656b370f6df7e95f0d1265ecab2b9a0471dac0f419ad7358" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+<script src="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e73ff481e24cbd279a3f957f0d7df3eb4d3241c78e8ffd5f877"></script>
+<script src="https://use.fontawesome.com/45b9a36b9b.js"></script>
+
+  <style type="text/css">
+
+    header .header {
+      position: relative;
+      display: inline-block;
+      background: no-repeat center center;
+      background-image: url('http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/GGWU_TR_HeaderImage.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      vertical-align: top;
+    }
+    #HeaderText {
+      font-size: 48px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .PD-10 {
+      height: 10px;
+    }
+/* --------------------------------------------------- Mobile Phone ---------------------------------------------*/
+
+@media only screen and (max-width: 320px) {
+  /* styles for narrow IPHONE screens */
+  header .header {
+    background-image: url('http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/GGWU_TR_HeaderImage.jpg');
+    background-attachment: scroll;
+    background-size: 700px 400px;
+  }
+  #FrenchImage {
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+  }
+  #HeaderText {
+  font-size: 28px;
+  margin-bottom: 10px;
+  }
+  #tf-menu.navbar-default {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(0, 0, 0, 0.8);
+  }
+  #tf-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: all 0.8s;
+  }
+  #tf-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: all 0.8s;
+  }
+  h1 {
+  margin: 0.5em 0px;
+  font-size:1.7em;
+  }
+}
+
+/* --------------------------------------------------- Tablet ---------------------------------------------*/
+
+@media only screen and (max-width: 916px) and (min-width: 320px) {
+  /* styles for ipad screens */
+  header .header {
+    background-image: url('http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/GGWU_TR_HeaderImage.jpg');
+    background-attachment: scroll;
+    background-size: 1067px 600px;
+  }
+  #FrenchImage {
+    margin: 0 auto;
+    width: 80%;
+    height: 60%;
+  }
+  #HeaderText {
+  font-size: 34px;
+  margin-bottom: 10px;
+  }
+  #tf-menu.navbar-default {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(0, 0, 0, 0.8);
+  }
+  h1 {
+  margin: 0.5em 0px;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <span style="display:none;">
+    %%[
+
+    SET @i_dmid = i_dmid
+    SET @CET_24MonthRow = LookupRows("CET_24Month","i_dmid",@i_dmid)
+      IF RowCount(@CET_24MonthRow) > 0 Then 
+        SET @first_name = Field(Row(@CET_24MonthRow,1),"first_name")
+        SET @first_name = ProperCase(@first_name)
+        SET @last_name = Field(Row(@CET_24MonthRow,1),"last_name")
+        SET @last_name = ProperCase(@last_name)
+        SET @tier_score = Field(Row(@CET_24MonthRow,1),"Tier_score")
+        SET @tier_cd = Field(Row(@CET_24MonthRow,1),"tier_cd")
+        SET @accountType = Field(Row(@CET_24MonthRow,1),"ACCOUNT_TYPE")
+    ENDIF
+
+    ]%%
+  </span>
+<!-- Navigation
+==========================================-->
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="%%microsite_base_url[default]21155[/default]%%" ><img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/GGWU_TR_LOGO.png" width="120" height="60" title="Total Rewards" /></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="%%microsite_base_url[default]21156[/default]%%">Electronics</a></li>
+        <li><a href="%%microsite_base_url[default]21157[/default]%%">Home Living</a></li>
+        <li><a href="%%microsite_base_url[default]21158[/default]%%">Accessories/Fashion</a></li>
+        <li><a href="%%microsite_base_url[default]21159[/default]%%">Travel</a></li>
+        <li><a href="%%microsite_base_url[default]21160[/default]%%">Outdoor Lving</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="header">
+    <h2 style="text-transform:uppercase;">HOME LIVING</h2>
+  </div>
+
+</header>
+
+<!-- <section style="text-align:center;" id="tf-HOME">
+    <div id="HeaderText">
+      Great Gift Wrap Up
+    </div>
+    <p id="PD120">
+      There's nothing like the electric energy of Las Vegas to put you in the giving mood. This year, your exclusive shopping extravaganza in November is in the enchanting ambiance of Paris Las Vegas. In December, shopping comes home to the classic Caesars Palace. Come reward yourself and redeem your gift points for breathtaking selections of all-new high-end products in our luxury brand boutique.<br/><br/>
+      Here's a sneak peek of the great gifts available for this year's events. Please visit GreatGiftWrapUp.com to view a complete list of all your possibilities.
+    </p>
+</section> -->
+
+<div class="clear"></div>
+
+
+
+<section id="tf-CAESARS">
+<div id="centering">
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_SlowCooker_400x400.jpg" width="200" height="200" title="All-Clad Electrics Collection 4qt. Stainless Slow Cooker with Ceramic Insert" /><br/><br/>
+      <p>All-Clad Electrics Collection 4qt. Stainless Slow Cooker with Ceramic Insert<br/>
+        <b>sku1870032</b> | <b id="orange">35,500 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+  
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_DysonHumidifier_400x400.jpg" width="200" height="200" title="Dyson&#174; AM10 Hygienic Mist Humidifier" /><br/><br/>
+      <p>Dyson<sup>&#174;</sup> AM10 Hygienic Mist Humidifier<br/>
+        <b>sku2160130</b> | <b id="orange">119,500 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_RachaelRayCookSet_400x400.jpg" width="200" height="200" title="RACHAEL RAY&#174; 10 pc. Hard Anodized Cookware Set" /><br/><br/>
+      <p>RACHAEL RAY<sup>&#174;</sup> 10 pc. Hard Anodized Cookware Set<br/>
+        <b>sku183507</b> | <b id="orange">48,100 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage --> 
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_EckoPaoSet_400x400.jpg" width="200" height="200" title="ECKO PAO! Sushi Deluxe Set" /><br/><br/>
+      <p>ECKO PAO! Sushi Deluxe Set<br/>
+        <b>sku2220088</b> | <b id="orange">4,700 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_BakersSet_400x400.jpg" width="200" height="200" title="Baker's Secret&#174; Signature 25pc. Bakeware Set" /><br/><br/>
+      <p>Baker's Secret<sup>&#174;</sup> Signature 25pc. Bakeware Set<br/>
+        <b>sku2220096</b> | <b id="orange">29,800 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+
+
+
+
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_Neato_400x400.jpg" width="200" height="200" title="Neato - Neato Botvac Connected Wi-Fi Enabled Vacuum" /><br/><br/>
+      <p>Neato - Neato Botvac Connected Wi-Fi Enabled Vacuum<br/>
+        <b>sku2240031</b> | <b id="orange">171,300 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+  
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_TFalDeepFryer_400x400.jpg" width="200" height="200" title="T-FaL&#174; ActiFry Low Fat Multi Cooker & Deep Fryer" /><br/><br/>
+      <p>T-FaL<sup>&#174;</sup> ActiFry Low Fat Multi Cooker & Deep Fryer<br/>
+        <b>sku2160146</b> | <b id="orange">56,500 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_ObjectoHybrid_400x400.jpg" width="200" height="200" title="Objecto - W4 Hybrid Humidifier with Aroma Therapy - Black" /><br/><br/>
+      <p>Objecto - W4 Hybrid Humidifier with Aroma Therapy - Black<br/>
+        <b>sku2240034</b> | <b id="orange">29,600 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage --> 
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_Keurig_400x400.jpg" width="200" height="200" title="KEURIG&#174; K15 Personal Coffee Maker" /><br/><br/>
+      <p>KEURIG<sup>&#174;</sup> K15 Personal Coffee Maker<br/>
+        <b>sku2150224</b> | <b id="orange">28,700 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_DysonVacuum_400x400.jpg" width="200" height="200" title="Dyson&#174; DC59 Origin Hand Vacuum with Handheld Tool Kit" /><br/><br/>
+      <p>Dyson<sup>&#174;</sup> DC59 Origin Hand Vacuum with Handheld Tool Kit<br/>
+        <b>sku2160137</b> | <b id="orange">95,000 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+
+
+
+
+    <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_CuisinartSteamer_400x400.jpg" width="200" height="200" title="Cuisinart&#174; Cookfres&#153; Digital Glass Steamer" /><br/><br/>
+      <p>Cuisinart<sup>&#174;</sup> Cookfres<sup>TM</sup> Digital Glass Steamer<br/>
+        <b>sku2230009</b> | <b id="orange">50,600 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+  
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_JambaJuicer_200x200.jpg" width="200" height="200" title="Jamba Juice - Jamba Super Chute Juice Extractor" /><br/><br/>
+      <p>Jamba Juice - Jamba Super Chute Juice Extractor<br/>
+        <b>sku2240022</b> | <b id="orange">54,200 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_NestDiffuser_400x400.jpg" width="200" height="200" title="NEST Fragrances Classic Candle and Reed Diffuser Set" /><br/><br/>
+      <p>NEST Fragrances Classic Candle and Reed Diffuser Set<br/>
+        <b>sku2260010</b> | <b id="orange">17,000 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage --> 
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_EchoMeats_400x400.jpg" width="200" height="200" title="Echo Valley Meats, Beef Rib Eye 12-pack" /><br/><br/>
+      <p>Echo Valley Meats, Beef Rib Eye 12-pack<br/>
+        <b>sku2200206</b> | <b id="orange">82,100 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_CuisinartCupcake_400x400.jpg" width="200" height="200" title="Cuisinart&#174; Cupcake-Shaped Cupcake Carrier" /><br/><br/>
+      <p>Cuisinart<sup>&#174;</sup> Cupcake-Shaped Cupcake Carrier<br/>
+        <b>sku2230022</b> | <b id="orange">10,000 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+
+  <div class="FirstImage">
+    <img src="http://image.email.caesars-marketing.com/lib/fe9c12727067047e75/m/24/Gifts_AirMattress_400x400.jpg" width="200" height="200" title="Aerobed - Queen Memory Foam High Air Bed with Pump" /><br/><br/>
+      <p>Aerobed - Queen Memory Foam High Air Bed with Pump<br/>
+        <b>sku2240052</b> | <b id="orange">59,000 pts</b>
+      </p>
+      <a href="https://www.greatgiftwrapup.com/" title="More Info" target="_blank">
+        <button id="GiftButton" type="button">More Info</button>
+      </a>
+  </div> <!-- End FirstImage -->
+</div>
+</section>
+
+<div class="clear"></div>
+
+<footer>
+  <div>
+    <p>Exclusively for <strong>%%=v(@first_name)=%% %%=v(@last_name)=%%</strong> | #%%=v(@i_dmid)=%% </p>
+  </div>
+
+  <div>
+    <h3>TERMS AND CONDITIONS</h3>
+    <p>Reward Credits are not used during this event. Earn Gift Points for all of your qualified play, from table games, slots or Race & Sports Book at fifteen of our Total Rewards casinos: Caesars Palace, The Cromwell, Planet Hollywood Resort & Casino Las Vegas, The LINQ Hotel & Casino, Paris Las Vegas, Flamingo Las Vegas, Bally's Las Vegas, Harrah's Las Vegas, Rio All-Suite Hotel & Casino, Harrah's Lake Tahoe, Harveys Lake Tahoe, Harrah's Laughlin, Harrah's Rincon, Harrah's Ak-Chin, or Harrah's Reno. Product images only represent a portion of gift-types that will be available at the 2016 Great Gift Wrap Up. Products subject to change and/or updating. Offer subject to availability. This offer is non-transferable, non-negotiable and must be redeemed in person. Cannot be used in conjunction with any other offer or promotion. Any attempt to sell, auction or otherwise transfer shall nullify this offer. Gift Points can only be redeemed in person during the assigned Promotion Shopping Events in Las Vegas, Nevada. You must be in attendance in person at a Promotion Shopping Event in Las Vegas, Nevada, you cannot call in or have a host redeem Gift Points for you. Participating casinos reserve the right to cancel, modify, or limit participation in this promotion at its discretion and without prior notice. Additional restrictions may apply. Management reserves all rights, including the right to replace, withdraw or limit items in this promotion at its discretion and without prior notice. Gift Point prices for product are subject to change without notice. Please contact the Total Rewards Center for more information. We anticipate that most gifts will be delivered by December 25, 2016. However, all gift shipments are subject to weather-related delays, holiday mail volume and events beyond our control and therefore cannot be guaranteed to deliver before December 25, 2016. Shipments to Canada, gifts shipped directly from our manufacturing partners, and gifts marked with extensive lead times may not arrive before December 25, 2016. Must be 21 or over to gamble.
+    <br/><br/>
+        Not responsible for typographical or other errors.
+    <br/><br/>
+        Know When To Stop Before You Start. &#174;Gambling Problem? Call 1-800-522-4700. 
+    <br/><br/>
+        &#169;2016 Caesars License Company, LLC. All rights reserved.
+    <br/><br/>        
+        The trademarks used herein are owned by Caesars License Company, LLC. and its affiliated companies.
+    <br/><br/>
+        This is an advertisement from Caesars Enterprise Services, LLC ("Caesars Entertainment"), transmitted by ExactTarget on Caesars Entertainment's behalf.
+    <br/><br/>
+        Caesars Enterprise Services, LLC<br/>
+        3475 Las Vegas Blvd., South, Las Vegas, NV 89109, ATTN: Total Service Central<br/>
+        <a href="https://www.caesars.com/" target="_blank" style="color:white;">www.caesars.com</a>
+    <br/><br/>
+
+
+  </div>
+
+</footer>
+
+<script type="text/javascript" src=" http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e732eacb474b85d2709d9e0b47ebcd34608eadbe875698e4ab3"></script>
+<script type="text/javascript" src="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e7356c070057318a8a9906097b3ed55afe2516d2aecb10bd8d4"></script>
+<script type="text/javascript" src="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e731754adae26c131aa8dc601077571884c1391ecdd23280709"></script>
+<script type="text/javascript" src="http://pages.email.caesars-marketing.com/page.aspx?QS=5c591a8916642e73dc99e37e3bab0aedca1d891c3de91a23495b29edcfd50e5e"></script>
+
+<!-- <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/iso.js"></script>
+<script type="text/javascript" src="js/main.js"></script> -->
+</body>
+
+</html>
